@@ -78,19 +78,54 @@ from pickletools import bytes1
 # print(type(a),type(b),type(c))
 
 
+#
+# x = 4
+# y = 4.5
+# z = "10"
+#
+# a = str(x)
+# b = str(y)
+# c = str(z)
+# print(a,b,c)
+#
+#
+# print(type(a),type(b),type(c))
 
-x = 4
-y = 4.5
-z = "10"
+# Strings
 
-a = str(x)
-b = str(y)
-c = str(z)
-print(a,b,c)
+# Strings in python are surrounded by either single quotation marks, or double quotation marks.
+
+# print("hello")
+
+# print("It is 'alright'")
+
+# print('he is called "jony" ')
+
+# a = "hello"
+#
+# print(a)
+
+# multipleData = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+#
+# print(multipleData)
 
 
-print(type(a),type(b),type(c))
+# a = "hello world"
+# # print(a[1])
+#
+# for x in a :
+#     print(x)
 
+# String Length
+# To get the length of a string, use the len() function.
+
+
+a = "hello world"
+
+# print(len(a))
+
+b = a[4:]
+print(b)
 
 
 
