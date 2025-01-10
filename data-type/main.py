@@ -120,16 +120,24 @@ from pickletools import bytes1
 # To get the length of a string, use the len() function.
 
 
-a = "hello world"
+# a = "hello world"
+#
+# # print(len(a))
+#
+# b = a[4:]
+# print(b)
+#
 
-# print(len(a))
 
-b = a[4:]
+a = "Hello World"
+
+b = a.upper()
+
+c = a.lower()
+
 print(b)
 
-
-
-
+print(c)
 
 
 
