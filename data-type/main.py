@@ -129,18 +129,22 @@ from pickletools import bytes1
 #
 
 
-a = "Hello World"
+a = "Hello World Ishan Rana"
 
-b = a.upper()
+# b = a.upper()
+#
+# c = a.lower()
+#
+# print(b)
+#
+# print(c)
 
-c = a.lower()
+# d = a.strip()
+#
+# print(d)
 
-print(b)
-
-print(c)
-
-
-
+e = a.split(" ")
+print(e)
 
 
 
