@@ -143,11 +143,11 @@ a = "Hello World Ishan Rana"
 #
 # print(d)
 
-e = a.split(" ")
-print(e)
+# e = a.split(" ")
+# print(e)
 
-
-
+# f = a.replace("H","J")
+# print(f)
 
 
 
